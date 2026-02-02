@@ -153,7 +153,7 @@ async def post_meth(file: UploadFile = File(...)):
 
 
 ############################   RAG    ####################################
-genai.configure(api_key="GEMINI_API_KEY")
+genai.configure(api_key=GEMINI_API_KEY)
 
 def build_context(results):
     context = ""
